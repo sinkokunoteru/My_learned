@@ -10,3 +10,6 @@ twitter api 使い方(python版)
 
 本日はつ利用のAPIであったが目的であった、リツイートの取り消しアプリは作成できなかった。
 もうすこしドキュメントを読んで本当にできないか、確かめてみようと思う。
+
+statuses/mentions_timelineとfavoriotes/createを利用して
+リプライをすべていいねするシステムを構築しようと思う。
