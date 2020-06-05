@@ -1,3 +1,4 @@
+6/5
 twitter api 使い方(python版)
 
 １．まずはtwitterデベロッパー登録
@@ -13,3 +14,9 @@ twitter api 使い方(python版)
 
 statuses/mentions_timelineとfavoriotes/createを利用して
 リプライをすべていいねするシステムを構築しようと思う。
+
+6/6更新
+api_practice1.pyを作成。
+自分へのリプライなどのツイートのIDを取得。
+そのIDを利用して、自動いいねツールを作成したいがfavorites/createの利用方法がわからない。
+明日また、利用方法を調べようと思う。
