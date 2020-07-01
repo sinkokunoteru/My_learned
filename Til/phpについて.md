@@ -53,3 +53,11 @@ $_REQUEST["フォーム名"]
 <form name="inquiry_form" action="complete.php" method="POST or GET">
 ------------------------
 これによって、complete.phpにおいて、$_REQUEST["inquiry_form"]にデータが送信される。
+
+
+ページを移動しても変数を引き継ぎたい場合はセッション変数を使う
+-------------------------------------
+session_start();
+$_SESSION["name"]="大家";
+-------------------------------------
+
